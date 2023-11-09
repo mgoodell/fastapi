@@ -1,0 +1,21 @@
+{
+  // Python linting settings
+  "python.linting.enabled": true,
+  "python.linting.pylintArgs": [
+    "--disable=missing-function-docstring",
+    "--disable=missing-module-docstring"
+  ],
+
+  // Other Python settings
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "python.organizeImports": true
+  },
+
+  // Other VS Code settings
+  "workbench.colorTheme": "Dark+ (default light)",
+  "editor.fontSize": 13,
+  "cSpell.words": [
+    "SQLALCHEMY"
+  ]
+}
